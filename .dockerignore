@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Env and config files
+.env
+*.env
+.env.*
+
+# IDE and editor configs
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker files you don't want inside image
+docker-compose.yml
+.dockerignore
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Optional: test or dev folders
+tests/
+*.test.*
+*.spec.*
