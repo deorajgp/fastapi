@@ -1,0 +1,54 @@
+# ===================
+# 🐍 Python
+# ===================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===================
+# 📝 Editor configs
+# ===================
+.vscode/
+.idea/
+*.swp
+
+# ===================
+# 🐳 Docker
+# ===================
+Dockerfile.*
+docker-compose.override.yml
+
+# ===================
+# 🔐 Secrets
+# ===================
+.env
+*.env
+
+# ===================
+# 📂 Build/Dist
+# ===================
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ===================
+# 🧪 MyPy/Typechecking
+# ===================
+.mypy_cache/
+
+# ===================
+# 🧮 Others
+# ===================
+*.log
+*.sqlite3
